@@ -68,7 +68,7 @@ class get_card_by_id:
             self.defense = None
             self.linkmarkers = card['data'][0]['linkmarkers']
             self.linkval = card['data'][0]['linkval']
-        if self.type in special:
+        if self.type in specials:
             self.defense = None
 
 class get_cards_by_name:
