@@ -5,7 +5,7 @@ def readme():
         return f.read()
         
 setuptools.setup(name='yugioh',
-                 version='0.0.23',
+                 version='0.0.24',
                  description='Yu-Gi-Oh API Wrapper',
                  long_description=readme(),
                  long_description_content_type='text/markdown',
