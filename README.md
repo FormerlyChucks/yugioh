@@ -17,7 +17,7 @@ You can install it with pip3:
 ```python3
 import yugioh
     
-card = yugioh.card(card_name = "The Wicked Dreadroot")
+card = yugioh.get_card(card_name = "The Wicked Dreadroot")
 print(card.name) #Returns "The Wicked Dreadroot"
 print(card.archetype) #Returns "Wicked God"
 print(card.attack) #Returns "4000"

@@ -5,7 +5,7 @@ monsters = ["Effect Monster", "Flip Effect Monster", "Flip Tuner Effect Monster"
 specials = ["Skill Card", "Spell Card", "Trap Card"]
 link = "Link Monster"
 
-class card:
+class get_card:
     def __init__(self, card_name, user_agent):
         parameters = {'name':str(card_name)}
         card = requests.get(base_url, params=parameters).json()
@@ -25,8 +25,7 @@ class card:
             self.defense = card['data'][0]['def']
             self.level = card['data'][0]['level']
         try:
-            if card['data'][0]['archetype']:
-                self.archetype = card['data'][0]['archetype']
+            self.archetype = card['data'][0]['archetype']
         except:
             self.archetype = None
         if self.type == link:
