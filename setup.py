@@ -12,5 +12,6 @@ setuptools.setup(name='yugioh',
                  url='https://github.com/IThinkImOKAY/yugioh',
                  author='diogenesjunior',
                  author_email='diogenesjunior@protonmail.com',
+                 install_requires=['requests']
                  packages=['yugioh'],
                  keywords='Yu-Gi-Oh API')
