@@ -12,6 +12,14 @@ You can install it with pip3:
 
     pip3 install yugioh
 
+-----
+Usage
+-----
+
+Get card by name:
+
+.. code-block:: python
+
     import yugioh
     
     card = yugioh.get_card(card_name = "The Wicked Dreadroot")
