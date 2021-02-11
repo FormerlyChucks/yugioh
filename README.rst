@@ -67,6 +67,17 @@ ebay_price | The card's eBay price
 amazon_price | The card's Amazon price
 coolstuffinc_price | The card's CoolStuffInc price
 
+=====  =====  ======
+   Inputs     Output
+------------  ------
+  A      B    A or B
+=====  =====  ======
+False  False  False
+True   False  True
+False  True   True
+True   True   True
+=====  =====  ======
+
 #### Spell/Trap/Skill Attributes
 
 Attribute | Description
