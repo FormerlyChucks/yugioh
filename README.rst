@@ -49,8 +49,9 @@ All cards with `magician` in their name:
 
 #### Monster Attributes
 
-Attribute | Description
------------- | -------------
+=====  =====  ======
+   Attribute     Description
+------------  ------
 name | The card's name
 archetype | The card's archetype
 attack | The card's attack points
@@ -59,21 +60,13 @@ defense | The card's defense points
 description | The card's description
 id | The card's ID
 level | The card's level
-race | The card's "race" (Still thinking about this one - Its documented in the API as "race", but is formally called "type")
+race | The card's race
 type | Monster/Normal card
 cardmarket_price | The card's Cardmarket price
 tcgplayer_price | The card's Tcgplayer price
 ebay_price | The card's eBay price
 amazon_price | The card's Amazon price
 coolstuffinc_price | The card's CoolStuffInc price
-
-=====  =====  ======
-   Attribute     Description
-------------  ------
-False  False  False
-True   False  True
-False  True   True
-True   True   True
 =====  =====  ======
 
 #### Spell/Trap/Skill Attributes
