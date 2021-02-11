@@ -1,47 +1,49 @@
-**YGOPRODECK API Wrapper**
+======================
+YGOPRODECK API Wrapper
+======================
 
-## Installation
+------------
+Installation
+------------
 
 You can install it with pip3:
 
     pip3 install yugioh
 
-## Upgrading
+-----
+Usage
+-----
 
-    pip3 install --upgrade yugioh
+Get card by name:
 
-## Usage
+.. code-block:: python
 
-### Get card by name
-
-```python3
-import yugioh
+    import yugioh
     
-card = yugioh.get_card(card_name = "The Wicked Dreadroot")
-print(card.name) #Returns "The Wicked Dreadroot"
-print(card.archetype) #Returns "Wicked God"
-print(card.attack) #Returns "4000"
-```
+    card = yugioh.get_card(card_name = "The Wicked Dreadroot")
+    print(card.name) #Returns "The Wicked Dreadroot"
+    print(card.archetype) #Returns "Wicked God"
+    print(card.attack) #Returns "4000"
 
-### Get card by ID
+Get card by ID:
 
-```python3
-import yugioh
+.. code-block:: python
+
+    import yugioh
     
-card = yugioh.get_card(card_id = "62180201")
-print(card.attack) #Returns "4000"
-print(card.name) #Returns "The Wicked Dreadroot"
-```
+    card = yugioh.get_card(card_id = "62180201")
+    print(card.attack) #Returns "4000"
+    print(card.name) #Returns "The Wicked Dreadroot"
 
-### All cards with `magician` in their name
+All cards with `magician` in their name:
 
-```python3
-import yugioh
+.. code-block:: python
 
-cards = yugioh.get_cards_by_name(keyword = 'magician')
-for card in cards.list:
-    print(card)
-```
+    import yugioh
+
+    cards = yugioh.get_cards_by_name(keyword = 'magician')
+    for card in cards.list:
+        print(card)
 
 #### Monster Attributes
 
