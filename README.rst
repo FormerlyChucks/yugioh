@@ -91,17 +91,30 @@ Monster Attributes
 Spell/Trap/Skill Attributes
 ---------------------------
 
-Attribute | Description
------------- | -------------
-description | The card's description
-id | The card's ID
-name | The card's name
-type | The card's type
-race | The card's race
-cardmarket_price | The card's Cardmarket price
-tcgplayer_price | The card's Tcgplayer price
-ebay_price | The card's eBay price
-amazon_price | The card's Amazon price
-coolstuffinc_price | The card's CoolStuffInc price
++--------------------+---------------------------------+
+| Attribute          | Description                     |
++--------------------+---------------------------------+
+| description        | The card's description          |
++--------------------+---------------------------------+
+| id                 | The card's ID                   |
++--------------------+---------------------------------+
+| name               | The card's name                 |
++--------------------+---------------------------------+
+| type               | The card's type                 |
++--------------------+---------------------------------+
+| race               | The card's "race"               |
++--------------------+---------------------------------+
+| cardmarket_price   | The card's Cardmarket price     |
++--------------------+---------------------------------+
+| tcgplayer_price    | The card's Tcgplayer price      |
++--------------------+---------------------------------+
+| ebay_price         | The card's eBay price           |
++--------------------+---------------------------------+
+| amazon_price       | The card's Amazon price         |
++--------------------+---------------------------------+
+| ebay_price         | The card's eBay price           |
++--------------------+---------------------------------+
+| coolstuffinc_price | The card's CoolStuffInc price   |
++--------------------+---------------------------------+
 
 **Please report all issues [here](https://github.com/ilikepyt/yugioh/issues)**
