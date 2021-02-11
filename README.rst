@@ -54,21 +54,21 @@ Monster Attributes
 =====  =====  ======
    Attribute     Description
 ------------  ------
-name  The card's name
-archetype  The card's archetype
-attack  The card's attack points
-attribute  The card's attribute
-defense  The card's defense points
-description  The card's description
-id  The card's ID
-level  The card's level
-race  The card's race
-type  Monster/Normal card
-cardmarket_price  The card's Cardmarket price
-tcgplayer_price  The card's Tcgplayer price
-ebay_price  The card's eBay price
-amazon_price  The card's Amazon price
-coolstuffinc_price  The card's CoolStuffInc price
+name The card's name
+archetype The card's archetype
+attack The card's attack points
+attribute The card's attribute
+defense The card's defense points
+description The card's description
+id The card's ID
+level The card's level
+race The card's race
+type Monster/Normal card
+cardmarket_price The card's Cardmarket price
+tcgplayer_price The card's Tcgplayer price
+ebay_price The card's eBay price
+amazon_price The card's Amazon price
+coolstuffinc_price The card's CoolStuffInc price
 =====  =====  ======
 
 #### Spell/Trap/Skill Attributes
