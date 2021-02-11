@@ -52,7 +52,7 @@ Monster Attributes
 ------------------
 
 +------------+------------+
-| Attribute  | Description |
+| Attribute  | Description|
 +============+============+
 | body row 1 | column 2   |
 +------------+------------+
