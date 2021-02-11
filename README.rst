@@ -68,7 +68,7 @@ amazon_price | The card's Amazon price
 coolstuffinc_price | The card's CoolStuffInc price
 
 =====  =====  ======
-   Inputs     Output
+   Attribute     Description
 ------------  ------
   A      B    A or B
 =====  =====  ======
