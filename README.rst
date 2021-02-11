@@ -69,7 +69,7 @@ coolstuffinc_price | The card's CoolStuffInc price
 
 =====  =====  ======
    Attribute     Description
-=====  =====  ======
+------------  ------
 False  False  False
 True   False  True
 False  True   True
