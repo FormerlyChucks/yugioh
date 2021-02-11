@@ -7,7 +7,7 @@ link = "Link Monster"
 
 class get_card:
     def __init__(self, card_name, user_agent):
-        parameters = {'name':str(card_name)}
+        parameters = {'name':card_name}
         card = requests.get(base_url, params=parameters).json()
         self.description = card['data'][0]['desc']
         self.id = card['data'][0]['id']
@@ -39,7 +39,7 @@ class get_card:
 
 class get_card_by_id:
     def __init__(self, card_id):
-        parameters = {'id':str(card_id)}
+        parameters = {'id':card_id}
         card = requests.get(base_url, params=parameters).json()
         self.description = card['data'][0]['desc']
         self.id = card['data'][0]['id']
@@ -72,6 +72,6 @@ class get_card_by_id:
 
 class get_cards_by_name:
     def __init__(self, keyword):
-        parameters = {'fname':str(keyword)}
+        parameters = {'fname':keyword}
         cards = requests.get(base_url, params=parameters).json()
         self.list = [card['name'] for card in cards['data']]
