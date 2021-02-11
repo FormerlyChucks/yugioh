@@ -117,4 +117,4 @@ Spell/Trap/Skill Attributes
 | coolstuffinc_price | The card's CoolStuffInc price   |
 +--------------------+---------------------------------+
 
-Please report all issues `here <https://github.com/ilikepyt/yugioh/issues>`_
+Please report all issues `here <https://github.com/ilikepyt/yugioh/issues>`_.
