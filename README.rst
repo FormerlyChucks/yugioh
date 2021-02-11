@@ -64,37 +64,37 @@ Monster Attributes
 +------------+------------+-----------+
 
 +------------------+---------------------------------+
-| Attribute        | Description                     |
+| Attribute          | Description                     |
 +------------------+---------------------------------+
-| name             | The card's name                 |
+| name               | The card's name                 |
 +------------------+---------------------------------+
-| archetype        | The card's archetype            |
+| archetype          | The card's archetype            |
 +------------------+---------------------------------+
-| attack           | The card's attack points        |
+| attack             | The card's attack points        |
 +------------------+---------------------------------+
-| attribute        | The card's attribute            |
+| attribute          | The card's attribute            |
 +------------------+---------------------------------+
-| defense          | The card's defense points       |
+| defense            | The card's defense points       |
 +------------------+---------------------------------+
-| description      | The card's description          |
+| description        | The card's description          |
 +------------------+---------------------------------+
-| id               | The card's ID                   |
+| id                 | The card's ID                   |
 +------------------+---------------------------------+
-| level            | The card's level                |
+| level              | The card's level                |
 +------------------+---------------------------------+
-| race             | The card's "race"               |
+| race               | The card's "race"               |
 +------------------+---------------------------------+
-| type             | Monster/Normal card             |
+| type               | Monster/Normal card             |
 +------------------+---------------------------------+
-| cardmarket_price | The card's Cardmarket price     |
+| cardmarket_price   | The card's Cardmarket price     |
 +------------------+---------------------------------+
-| tcgplayer_price  | The card's Tcgplayer price      |
+| tcgplayer_price    | The card's Tcgplayer price      |
 +------------------+---------------------------------+
-| ebay_price       | The card's eBay price           |
+| ebay_price         | The card's eBay price           |
 +------------------+---------------------------------+
-| amazon_price     | The card's Amazon price         |
+| amazon_price       | The card's Amazon price         |
 +------------------+---------------------------------+
-| ebay_price       | The card's eBay price           |
+| ebay_price         | The card's eBay price           |
 +------------------+---------------------------------+
 | coolstuffinc_price | The card's CoolStuffInc price |
 +------------------+---------------------------------+
