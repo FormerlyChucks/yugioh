@@ -28,12 +28,12 @@ print(card.attack) #Returns "4000"
 ```python3
 import yugioh
     
-card = yugioh.get_card_by_id(card_id = "62180201")
+card = yugioh.get_card(card_id = "62180201")
 print(card.attack) #Returns "4000"
 print(card.name) #Returns "The Wicked Dreadroot"
 ```
 
-### All cards with `keyword` in their name
+### All cards with `magician` in their name
 
 ```python3
 import yugioh
