@@ -51,17 +51,17 @@ All cards with `magician` in their name:
 Monster Attributes
 ------------------
 
-+------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  |
-+============+============+===========+
-| body row 1 | column 2   | column 3  |
-+------------+------------+-----------+
-| body row 2 | Cells may span columns.|
-+------------+------------+-----------+
-| body row 3 | Cells may  | - Cells   |
-+------------+ span rows. | - contain |
-| body row 4 |            | - blocks. |
-+------------+------------+-----------+
++------------+------------+
+| Attribute  | Description |
++============+============+
+| body row 1 | column 2   |
++------------+------------+
+| body row 2 | Cells may sp |
++------------+------------+
+| body row 3 | Cells may  |
++------------+ span rows. |
+| body row 4 |            |
++------------+------------+
 
 =====  =====  ======
    Attribute     Description
