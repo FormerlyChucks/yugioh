@@ -8,15 +8,9 @@ Installation
 
 You can install it with pip3:
 
+.. code-block:: bash
+
     pip3 install yugioh
-
------
-Usage
------
-
-Get card by name:
-
-.. code-block:: python
 
     import yugioh
     
